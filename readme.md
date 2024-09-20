@@ -5,6 +5,8 @@
 * Email: <mailto:howe.r.j.89@gmail.com>
 * Repo: <https://github.com/howerj/muxleq>
 
+**THE ORIGINAL MUXLEQ**.
+
 A faster SUBLEQ variant called MUXLEQ. SUBLEQ is a single instruction machine, 
 this is a two instruction machine. By just adding one instruction is becomes possible to
 speed up the system dramatically whilst also reducing the program size. The

@@ -46,6 +46,9 @@ this variant back into a SUBLEQ machine.
 
 Possible variants to pack as much functionality as possible in would include:
 
+* A pure single instruction muxleq variant, this would have the problem that 
+  shifting bits in either direction would be expensive, however it would be an 
+  interesting comparison to SUBLEQ.
 * Bit reversal, the resulting multiplexed value could have its bits reversed.
   This could be folded into the `mux` instruction.
 * Right shift, even if only by one place.
